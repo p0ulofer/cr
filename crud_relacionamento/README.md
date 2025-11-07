@@ -42,7 +42,25 @@ We would like to extend our thanks to the following sponsors for funding Laravel
 - **[Redberry](https://redberry.international/laravel-development)**
 - **[Active Logic](https://activelogic.com)**
 
-## Contributing
+## 
+Frameworks
+
+Frameworks são estruturas compostas por bibliotecas, ferramentas e boas práticas que facilitam o desenvolvimento de software ao fornecer uma base pronta para organizar e criar aplicações. Um framework costuma definir padrões para separar funcionalidades, acelerar processos e garantir a padronização no desenvolvimento. No contexto web, exemplos comuns incluem Laravel (PHP), Django (Python) e Ruby on Rails (Ruby). O uso de frameworks permite que os desenvolvedores foquem mais na lógica da aplicação e menos na configuração da infraestrutura.
+
+​
+Padrão de Arquitetura MVC
+
+O padrão Model-View-Controller (MVC) é uma arquitetura que separa o sistema em três camadas principais: Model (responsável pela lógica de dados), View (responsável pela interface de usuário) e Controller (responsável por intermediar a comunicação entre Model e View). Essa separação facilita a manutenção do código, permite maior reutilização e torna o desenvolvimento mais organizado. Frameworks modernos, como Laravel, Ruby on Rails e vários outros, implementam esse padrão para estruturar aplicações web de maneira eficiente.
+
+​
+Migrations
+
+Migrations são ferramentas que permitem criação, alteração e versionamento de bancos de dados de forma organizada e controlada. Usadas em frameworks modernos, como Laravel, migrations garantem que todos os integrantes do projeto possam evoluir a estrutura do banco de dados de maneira sincronizada e rastreável. Os comandos de migration criam tabelas, campos e relacionamentos, registrando cada alteração como parte do histórico de versões do banco, facilitando rollback e auditoria de mudanças.
+
+​
+Laravel Eloquent
+
+Laravel Eloquent é o ORM (Mapeador Objeto-Relacional) nativo do Laravel, responsável por simplificar e facilitar o uso do banco de dados no framework. Com Eloquent, cada tabela do banco é tratada como uma classe (Model) e as operações de CRUD (criação, leitura, atualização, exclusão) podem ser feitas usando métodos e propriedades dessas classes, sem que sejam necessárias consultas SQL diretas. Eloquent permite definir facilmente relacionamentos entre modelos, como um-para-muitos e muitos-para-muitos, além de contar com recursos como exclusão suave, mutators, eager loading e factories para testes. Tudo isso torna o desenvolvimento com banco de dados mais intuitivo, rápido e seguro.Contributing
 
 Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
 
